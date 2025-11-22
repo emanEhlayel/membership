@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Entity Collective</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header-container">
+      <div class="row align-items-center">
+        <div class="col-lg-3 col-9 header-logo-col">
+          <a href="#" class="header-logo-link">
+            <img src="assets/navlogo-D8j9TEzI.png" class="header-logo-img" alt="Entity Collective Logo">
+          </a>
+        </div>
+        <div class="col-lg-9 d-none d-lg-flex justify-content-start">
+          <div class="nav-desktop-wrapper">
+            <div class="nav-border-container">
+              <nav class="nav-main nav-desktop">
+                <ul class="nav-list">
+                  <li class="nav-item">
+                    <a class="nav-link nav-link-home active" href="index.html">HOME</a>
+                  </li>
+                  <li class="nav-item dropdown nav-item-dropdown" data-color="about">
+                    <a class="nav-link nav-link-about" href="about.html"> ABOUT US </a>
+                    <ul class="dropdown-menu nav-dropdown-menu">
+                      <li><a class="dropdown-item nav-dropdown-item" href="vision.html">Vision & Mission</a></li>
+                      <li><a class="dropdown-item nav-dropdown-item" href="team.html">Our Team</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link nav-link-services" href="services.html">SERVICES</a>
+                  </li>
+                  <li class="nav-item dropdown nav-item-dropdown" data-color="projects">
+                    <a class="nav-link nav-link-projects" href="projects.html"> PROJECTS </a>
+                    <ul class="dropdown-menu nav-dropdown-menu nav-dropdown-menu-projects">
+                      <li>
+                        <a class="dropdown-item nav-dropdown-item nav-dropdown-item-project" href="project1.html">
+                          <span class="project-year">24–26</span>
+                          <span class="project-title">Palestine Beyond Reel</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item nav-dropdown-item nav-dropdown-item-project" href="project2.html">
+                          <span class="project-year">21–23</span>
+                          <span class="project-title">Cinema Therapy</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link nav-link-contact" href="contact.html">CONTACT US</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 d-lg-none d-flex justify-content-end">
+          <button class="hamburger-toggle" id="offcanvas-toggle" aria-label="Toggle navigation menu">
+            <span class="hamburger-box">
+              <span class="hamburger-inner"></span>
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="offcanvas-menu" id="offcanvas-menu">
+    <div class="offcanvas-header">
+      <button class="offcanvas-close" id="offcanvas-close" aria-label="Close navigation menu">
+        <span class="close-icon"></span>
+      </button>
+    </div>
+    <nav class="nav-main nav-mobile">
+      <ul class="nav-list nav-list-vertical">
+        <li class="nav-item">
+          <a class="nav-link nav-link-home active" href="index.html">HOME</a>
+        </li>
+        <li class="nav-item nav-item-dropdown nav-item-mobile-dropdown" data-color="about">
+          <a class="nav-link nav-link-about nav-link-toggle" href="about.html" data-toggle-target="#about-submenu"
+            aria-expanded="false"> ABOUT US </a>
+          <ul class="nav-dropdown-menu nav-dropdown-menu-mobile" id="about-submenu">
+            <li><a class="nav-dropdown-item" href="vision.html">Vision & Mission</a></li>
+            <li><a class="nav-dropdown-item" href="team.html">Our Team</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-link-services" href="services.html">SERVICES</a>
+        </li>
+        <li class="nav-item nav-item-dropdown nav-item-mobile-dropdown" data-color="projects">
+          <a class="nav-link nav-link-projects nav-link-toggle" href="projects.html"
+            data-toggle-target="#projects-submenu" aria-expanded="false"> PROJECTS </a>
+          <ul class="nav-dropdown-menu nav-dropdown-menu-mobile nav-dropdown-menu-projects" id="projects-submenu">
+            <li>
+              <a class="nav-dropdown-item nav-dropdown-item-project" href="project1.html">
+                <span class="project-year">24–26</span>
+                <span class="project-title">Palestine Beyond Reel</span>
+              </a>
+            </li>
+            <li>
+              <a class="nav-dropdown-item nav-dropdown-item-project" href="project2.html">
+                <span class="project-year">21–23</span>
+                <span class="project-title">Cinema Therapy</span>
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-link-contact" href="contact.html">CONTACT US</a>
+        </li>
+      </ul>
+    </nav>
+    <img src="assets/component-BcKS9rCr.png" alt="">
+  </div>
+
+  <main style="padding: 50px 20px; text-align: center;">
+    <h1 style="color: #2f6680; margin-bottom: 30px;">ENTITY COLLECTIVE</h1>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <ul class="social-icons">
+              <li>
+                <a href="#">
+                  <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100"
+                    viewBox="0,0,256,256">
+                    <g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                      stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                      font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                      style="mix-blend-mode: normal">
+                      <g transform="scale(5.12,5.12)">
+                        <path
+                          d="M16,3c-7.17,0 -13,5.83 -13,13v18c0,7.17 5.83,13 13,13h18c7.17,0 13,-5.83 13,-13v-18c0,-7.17 -5.83,-13 -13,-13zM37,11c1.1,0 2,0.9 2,2c0,1.1 -0.9,2 -2,2c-1.1,0 -2,-0.9 -2,-2c0,-1.1 0.9,-2 2,-2zM25,14c6.07,0 11,4.93 11,11c0,6.07 -4.93,11 -11,11c-6.07,0 -11,-4.93 -11,-11c0,-6.07 4.93,-11 11,-11zM25,16c-4.96,0 -9,4.04 -9,9c0,4.96 4.04,9 9,9c4.96,0 9,-4.04 9,-9c0,-4.96 -4.04,-9 -9,-9z">
+                        </path>
+                      </g>
+                    </g>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50"
+                    style="fill:#FFFFFF;">
+                    <path
+                      d="M25,3C12.85,3,3,12.85,3,25c0,11.03,8.125,20.137,18.712,21.728V30.831h-5.443v-5.783h5.443v-3.848 c0-6.371,3.104-9.168,8.399-9.168c2.536,0,3.877,0.188,4.512,0.274v5.048h-3.612c-2.248,0-3.033,2.131-3.033,4.533v3.161h6.588 l-0.894,5.783h-5.694v15.944C38.716,45.318,47,36.137,47,25C47,12.85,37.15,3,25,3z">
+                    </path>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100"
+                    viewBox="0,0,256,256">
+                    <g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                      stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                      font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                      style="mix-blend-mode: normal">
+                      <g transform="scale(5.12,5.12)">
+                        <path
+                          d="M44.89844,14.5c-0.39844,-2.19922 -2.29687,-3.80078 -4.5,-4.30078c-3.29687,-0.69922 -9.39844,-1.19922 -16,-1.19922c-6.59766,0 -12.79687,0.5 -16.09766,1.19922c-2.19922,0.5 -4.10156,2 -4.5,4.30078c-0.40234,2.5 -0.80078,6 -0.80078,10.5c0,4.5 0.39844,8 0.89844,10.5c0.40234,2.19922 2.30078,3.80078 4.5,4.30078c3.5,0.69922 9.5,1.19922 16.10156,1.19922c6.60156,0 12.60156,-0.5 16.10156,-1.19922c2.19922,-0.5 4.09766,-2 4.5,-4.30078c0.39844,-2.5 0.89844,-6.10156 1,-10.5c-0.20312,-4.5 -0.70312,-8 -1.20312,-10.5zM19,32v-14l12.19922,7z">
+                        </path>
+                      </g>
+                    </g>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100"
+                    viewBox="0,0,256,256">
+                    <g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                      stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                      font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                      style="mix-blend-mode: normal">
+                      <g transform="scale(5.12,5.12)">
+                        <path
+                          d="M9,4c-2.76,0 -5,2.24 -5,5v32c0,2.76 2.24,5 5,5h32c2.76,0 5,-2.24 5,-5v-32c0,-2.76 -2.24,-5 -5,-5zM12,18h6.73047c0.73,0 4.67969,-0.04969 4.67969,3.57031c0,1.92 -1.31039,2.56938 -1.90039,2.85938c0.88,0.28 2.49023,1.09031 2.49023,3.57031c0,3.83 -4.39047,4 -4.98047,4h-7.01953zM29,18h7v2h-7zM15,20.42969v3.28125h3.2207c0.44,0 1.89844,-0.24094 1.89844,-1.71094c0,-1.47 -1.89945,-1.57031 -2.18945,-1.57031zM32.73047,21c3.9,0 4.95914,3.03977 5.11914,3.75977c0.15,0.73 0.15039,1.37023 0.15039,2.24023h-7.90039c0,0.87 0.46102,2.83008 2.79102,2.83008c0.62,0 1.07883,-0.14945 1.54883,-0.43945c0.46,-0.29 0.62148,-0.57133 0.77148,-0.86133h2.62891c-0.46,1.15 -1.07977,2.02156 -2.00977,2.60156c-0.93,0.58 -2.01,0.86914 -3.25,0.86914c-0.78,0 -1.55008,-0.14945 -2.33008,-0.43945c-0.62,-0.29 -1.23922,-0.72039 -1.69922,-1.15039c-0.46,-0.44 -0.77008,-1.02023 -1.08008,-1.74023c-0.31,-0.58 -0.4707,-1.44992 -0.4707,-2.16992c0,-0.72 0.29047,-5.5 5.73047,-5.5zM32.73047,23.0293c-2.26,0 -2.63086,2.17055 -2.63086,2.31055h4.96094c-0.16,-0.72 -0.81008,-2.31055 -2.33008,-2.31055zM15,25.71094v3.85937h3.35156c0.289,0 2.32813,-0.08938 2.32813,-1.85937c0,-1.76 -1.60213,-2 -2.32813,-2z">
+                        </path>
+                      </g>
+                    </g>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 ">
+            <nav class="footer-nav">
+              <ul class="footer-nav-list">
+                <li><a href="#" class="footer-link footer-link-about">ABOUT US</a></li>
+                <li><a href="#" class="footer-link footer-link-services">SERVICES</a></li>
+                <li><a href="#" class="footer-link footer-link-projects">PROJECTS</a></li>
+                <li><a href="#" class="footer-link footer-link-contact">CONTACT US</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="col-12 footer-contact-section">
+            <div class="row">
+              <div class="col-lg-4 col-12 hide-mobile">
+                <div class="footer-logo">
+                  <img src="assets/navlogo-D8j9TEzI.png" alt="Entity Collective Logo">
+                </div>
+              </div>
+              <div class="col-lg-8 col-12">
+                <div class="contact-info-wrapper">
+                  <ul
+                    class="row list-unstyled p-0 m-0 d-inline-block d-sm-flex align-items-center justify-content-center contact-list">
+                    <li class="col-sm-6 col-md-4 my-2">
+                      <a href="tel:0032489600193" class="contact-box">
+                        <div class="icon-circle">
+                          <img src="images/call.png" width="20" height="20" alt="Phone">
+                        </div>
+                        <span>0032489600193</span>
+                      </a>
+                    </li>
+                    <li class="col-sm-6 col-md-5 my-2">
+                      <a href="mailto:info@entitycollective.org" class="contact-box">
+                        <div class="icon-circle">
+                          <img src="images/send.png" width="20" height="20" alt="Email">
+                        </div>
+                        <span>info@entitycollective.org</span>
+                      </a>
+                    </li>
+                    <li class="col-sm-6 col-md-3 my-2">
+                      <a href="#" class="contact-box">
+                        <div class="icon-circle">
+                          <img src="images/people.png" width="20" height="20" alt="Membership">
+                        </div>
+                        <span>Membership</span>
+                      </a>
+                    </li>
+                    <li class="col-sm-6 col-md-6 my-2 d-flex justify-content-md-center">
+                      <div class="contact-box">
+                        <div class="icon-circle">
+                          <img src="images/certificate.png" width="20" height="20" alt="Legal Number">
+                        </div>
+                        <span>1009.558.776</span>
+                      </div>
+                    </li>
+                    <li class="col-sm-6 col-md-6 my-2 d-flex justify-content-md-center">
+                      <div class="contact-box">
+                        <div class="icon-circle">
+                          <img src="images/bank.png" width="20" height="20" alt="Bank Account">
+                        </div>
+                        <span>BE86 9057 0063 5350</span>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-4 col-12 hide-desktop">
+                <div class="footer-logo mobile-logo">
+                  <img src="assets/navlogo-D8j9TEzI.png" alt="Entity Collective Logo">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>© 2025 ENTITY COLLECTIVE</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
